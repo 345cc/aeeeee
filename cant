@@ -164,7 +164,9 @@ okdude = game:GetService("Players")[control].Chatted:Connect(function(msg)
 		if cmd == "exit" then
 			wtf()
 		end
-
+		if cmd == "test" then
+			print("working")
+		end
 
 	end
 end)
